@@ -1,0 +1,158 @@
+/* stles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffb347;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+#logo_gp {
+    width: 150px;
+    margin-top: 1rem; 
+}
+
+
+nav {
+    background: #333;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ffb347;
+}
+
+
+section {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 1000px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+
+.fabric-type {
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+
+.fabric-type h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.fabric-type img {
+    width: 200px;         
+    height: auto;  
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.certified {
+    background-color: #ffb347;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#services ul, #brands ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#services ul li, #brands ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+#delivery p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer {
+    background: v#333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    /* width: 100px; */
+}
+
+/* p{
+    color: white;
+    font-weight: bold;
+} */
+
+.price-container {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.price-container h5,
+.price-container p {
+    color: white; 
+    margin: 0;
+}
