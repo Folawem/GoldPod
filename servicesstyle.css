@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.accordion-button {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #e2e2e2;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    color: #666;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+}
+
+.accordion-body h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.accordion-body p {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
